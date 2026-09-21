@@ -21,3 +21,4 @@ class CitaMedicaController:
         cursor.execute(query, (id_medico, fecha_hora))
         resultado = cursor.fetchone()
         return resultado[0] == 0
+# Validacion previa de disponibilidad de medicos integrada

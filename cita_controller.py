@@ -22,3 +22,5 @@ class CitaMedicaController:
         resultado = cursor.fetchone()
         return resultado[0] == 0
 # Validacion previa de disponibilidad de medicos integrada
+
+# Consultas parametrizadas aplicadas conforme a Ley N.° 29733
